@@ -1,31 +1,31 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167bf7;
+    --cor-de-fundo: #00030c;
     --fonte-principal: "Inter";
     --botao-azul-efeito: #3c92fa;
 }
 
-body {
-    background-color: var(--cor-de-fundo)
-    color: var(--branco-principal)
-    font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400;
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal); 
+    font-size: 16px; 
+    font-weight: 400; 
 }
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0;    
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("img/Background.png"); 
     background-repeat: no-repeat;
     background-size: contain;
-    align-items: center;
-    text-align: center;
+    align-items: center; 
+    text-align: center; 
 }
 
 .container {
@@ -41,11 +41,11 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
-    margin-bottom: 1em;
+    margin-bottom: 1em; 
 }
 
 .botao_secundario {
-    background-color: transparant;
+    background-color: transparent;
     border: 2px solid var(--branco-principal);
 }
 
@@ -107,8 +107,8 @@ body {
     text-align: center;
 }
 
-.descricao__titulo {
-    font-size: 32px;
+.dispositivos__titulo {
+    font-size: 48px;
     color: var(--branco-principal);
 }
 
@@ -141,15 +141,15 @@ body {
     font-size: 14px;
 }
 
-.lista__link a: hover {
+.lista__link a:hover {
     color: var(--botao-azul);
 }
 
-.lista__link a :active {
+.lista__link a:active {
     color: purple;
 }
 
-.container__botao: hover {
+.container__botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
 }
